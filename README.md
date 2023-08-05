@@ -11,7 +11,7 @@ $ python -m venv venv
 $ pip install -r requirements.txt
 ```
 
-## Demo
+## Usage
 
 ### Merge pdf
 Merges two PDF documents into a single file. Each of them has a cover page that must be removed before combining the PDF documents.
