@@ -1,5 +1,8 @@
 # workshop-ef
-Workshop for ef organism
+Correction of the exercises proposed by an organism.
+
+## Prerequisites
+You have to install minimum Python 3.10 and related packages
 
 ## Getting started
 
@@ -11,13 +14,18 @@ $ pip install -r requirements.txt
 ## Demo
 
 ### Merge pdf
+Merges two PDF documents into a single file. Each of them has a cover page that must be removed before combining the PDF documents.
 
 ```bash
-python merge-pdf/main.py
+$ python merge-pdf/main.py
 ```
 
-### Process excel file
-
+### 2010 US census
+Script that reads the census spreadsheet file while calculating statistics for each county.
 ```bash
-python census/main.py
+$ python census/main.py
 ```
+
+## Documentation
+* https://pypdf2.readthedocs.io/en/latest/
+* https://openpyxl.readthedocs.io/en/stable/
